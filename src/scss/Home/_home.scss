@@ -1,0 +1,41 @@
+.header{
+  display: flex;
+  height: 963px;
+}
+
+.headerImg{
+  background-image: url("../../assets/Home-Hero-Image.jpg");
+  width: 885px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.headerMain{
+  width: 50%;
+  display: flex;
+  margin-right: 142px;
+  flex-direction: column;
+}
+.headerLogin{
+  display: flex;
+  justify-content: flex-end;
+}
+.btnLoginPrimary{
+  font-size: 13px;
+  padding: 10px;
+  border: 1px solid $yellow;
+  margin: 50px 15px;
+  margin-right: 0;
+}
+.btnLoginSecondary{
+  font-size: 13px;
+  margin: 50px 15px;
+  padding: 10px;
+  color: $dark-gray;
+}
+.headerMenuElements{
+  display: flex;
+  justify-content: flex-end;
+}
+.btnMenuSecondary{
+  padding-left: 55px;
+}

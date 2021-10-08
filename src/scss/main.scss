@@ -1,0 +1,11 @@
+@import "settings/fonts";
+@import "settings/colors";
+@import "Home/home";
+
+body{
+  font-family: $font-base;
+}
+.container {
+  max-width: 1900px;
+  margin: 0 auto;
+}
